@@ -6,7 +6,7 @@ Many new yorkers left the city after they started working remotely amid the pand
 
 # Design
 
-To predict rental prices (i.e., target) of NYC apartments, I decided relevant features with the target: 1. types of the fee (e.g., broker fee versus no fee), 2. neighborhood, 3. the number of units in the building, 4. year apartment built, 5. the number of available stations, 6. the distance of the nearby station, 7. floor of the building, 8. square feet, 9. the number of amenities in the building, 10. the number of bedrooms. After data cleaning and the regression assumption check, I went through the different types of regression models using simple linear, Ridge and Lass regressions, and k-fold cross-validation. 
+To predict rental prices (i.e., target) of NYC apartments, I decided relevant features with the target: 1. types of the fee (e.g., broker fee versus no fee), 2. neighborhood, 3. the number of units in the building, 4. year apartment built, 5. the number of available stations, 6. the distance of the nearby station, 7. floor of the building, 8. square feet, 9. the number of amenities in the building, 10. the number of bedrooms. After data cleaning and the regression assumption check, I went through the different types of regression models using simple linear, Ridge (L2) and Lasso (L1) regressions, and k-fold cross-validation. 
 
 ## Data
 
